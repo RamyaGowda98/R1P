@@ -1,0 +1,337 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,255,0.1),rgba(0,0,255,0.1)),
+        url(https://images.hdqwalls.com/wallpapers/bthumb/2020-money-heist-ei.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+nav .logo{
+    width: 25%;
+    text-align: center;
+    color: #F90C05;
+    font-family: 'Lobster Two', cursive;
+font-family: 'Rye', cursive;
+}
+
+nav .menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+nav .menu a{
+    width: 25%;
+    text-decoration: none;
+    color:#F90C05;
+    font-weight: bold;
+
+}
+nav .menu a:first-child{
+    color: white;
+}
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section{
+    text-transform: uppercase;
+}
+
+section h3{
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-shadow: 1px 1px 1px black;
+    color:#DD2539;
+    text-decoration-style:solid;
+    font-family: 'Alfa Slab One', cursive;
+    
+    
+
+    
+}
+section h1{
+    margin: 30px 0 20px 0px;
+    font-size:40px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 6px white;
+    color:black;
+
+    
+    
+    
+}
+section h1 span{
+    text-shadow: 2px 1px 6px #62259B;
+
+    text-transform: uppercase;
+}
+
+section p{
+    font-size: 23px;
+    font-weight: 400;
+    font-style:italic;
+    margin: 0 0 15px 0;
+    text-transform:lowercase;
+    color:white;
+    }
+
+section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+    
+}
+
+.btnone{
+    background-color: #fff;
+    color:#000;
+    font-weight: bold;
+}
+.btntwo{
+    background-color: #E06F06;
+    color:#fff;
+    font-weight: bold;
+}
+
+.changeContent:after{
+    content: "";
+    animation: changetext 10s infinite linear;
+    
+}
+@keyframes changetext{
+    0%{content: "Season 1"; color:crimson;}
+    20%{content: "Season 2"; color:darksalmon; }
+    40%{content: "Season 3"; color:chartreuse}
+    80%{content: "Season 4"; color:darkmagenta;}
+    100%{content: "Season 5"; color: forestgreen;}
+}
+
+
+
+
+
+
+
+
+
+
+/* Login */
+
+
+.login-box{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50px,-50px);
+    color:darkorange;
+}
+
+.textbox i{
+    float: left;
+    text-align: center;
+}
+
+.login-box h1{
+    float:  left;
+    font-size: 40px;
+    border-bottom: : 6px solid #E06F06;
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+
+.textbox{
+    width: 100%;
+    font-size: 20px;
+    padding:8px 0;
+    margin: 8px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #E06F06;
+    
+}
+
+.textbox input{
+    background: none;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 80px;
+    float: left;
+    margin: 0 10px;
+    
+    
+}
+
+
+.btn{
+    width: 100%;
+    background: none;
+    color: white;
+    font-size: 18px;
+    border: 2px solid #E06F06;
+    padding: 5px;
+    cursor: pointer;
+    margin: 12px 0;
+    
+    
+}
+        
+        
+        
+        
+        
+        
+        
+        
+        /*About*/
+
+.row{
+    display: flex; /*side by side displaying*/
+    height: 88%;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%; /* divided 2 col same size*/
+}
+
+h4{
+    color: red;
+    font-size: 300%;
+    float: left;
+    margin-left: 30px;
+    
+}
+
+p{
+    color: black;
+    line-height: 25px;
+    font-size: 20px;
+    justify-content:left;
+    float: left;
+    
+}   
+
+
+button{
+width: 100px;
+    color: #000;
+    font-size:12px;
+    padding: 12px 0;
+    background: #fff;
+    border: none;
+    outline: none;
+    margin-top:30px;
+    float: left;
+    margin-left: 30px;
+}
+    
+.card{
+    width: 200px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-color: aqua;
+    font-size: 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.3s;
+    box-shadow: 2px 2px 8px #fff;
+    
+    
+}
+.card:hover{
+    transform: translateY(-30px);
+}
+    
+    
+.card2{
+    background-image: url(https://w0.peakpx.com/wallpaper/317/208/HD-wallpaper-money-heist-casa-de-papel-house-of-paper-la-casa-de-papel-netflix-professor-robbers-royal-mint-spain-tokyo-thumbnail.jpg);
+    
+}
+    
+.card1{
+    background-image: url(https://w0.peakpx.com/wallpaper/207/188/HD-wallpaper-la-casa-de-papel-ceries-serie-thumbnail.jpg);
+}
+
+.card3{
+    background-image: url(https://w0.peakpx.com/wallpaper/302/290/HD-wallpaper-money-heist-berlin-el-professor-la-casa-de-papel-money-heist-s4-nairobi-raquel-tokio.jpg);
+}
+
+.card4{
+    background-image: url(https://www.geo.tv/assets/uploads/updates/2021-09-02/368444_8595160_updates.jpg);
+}
+
+.card5{
+    background-image: url(https://w0.peakpx.com/wallpaper/435/102/HD-wallpaper-money-heist-amoled-web-series-thumbnail.jpg);
+}
+    
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+}
+
+.card p{
+    font-size: 10px;
+}
+
+
+
+
+/* contact */
+
+
+.contact
+    {
+    width: 200px;
+    position: absolute;
+    color:darkorange;
+    
+    }
+
+.contact h1{
+    float:  left;
+    font-size: 40px;
+    border-bottom: : 6px solid #E06F06;
+    margin-bottom: 50px;
+    padding: 13px 0;
+    color:darkgoldenrod;
+    text-shadow: 1px 1px 1px white;
+    
+}
